@@ -1,0 +1,10 @@
+my:
+  greeting: "Welcome to my Prod Application"
+  dbValues: "Demo Db values from Prod prop file"
+  list:
+    values: One, Two, Three
+
+db:
+  connection: "url = localhost:8080/ajith/prod, userName = AjithProd, password = pass"
+  host: 200.0.0.250
+  port: 4200
