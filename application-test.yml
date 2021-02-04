@@ -1,0 +1,11 @@
+my:
+  greeting: Welcome to my Test Application
+  dbValues: Demo Db values from Test prop file
+  list:
+    values: One, Two, Three, Four, Five
+
+db:
+  connection: "url = localhost:8081/ajith/test, userName = AjithTest, password = pass"
+  host: 128.1.1.12
+  port: 1200
+
