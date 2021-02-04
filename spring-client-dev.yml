@@ -12,7 +12,4 @@ db:
   host: 127.0.0.1
   port: 600
 
-management.endpoint.web.exposure.include: "*"
-spring:
-  profiles:
-    active: test
+
