@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+my:
+  greeting: "Welcome to my Application"
+  dbValues: "Demo Db values from prop file"
+  list:
+    values: One, Two, Three
+
+db:
+  connection: "url = localhost:8080/ajith, userName = Ajith, password = pass"
+  host: 127.0.0.1
+  port: 600
+
+management.endpoint.web.exposure.include: "*"
+spring:
+  profiles:
+    active: test
